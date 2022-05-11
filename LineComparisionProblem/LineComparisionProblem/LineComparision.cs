@@ -17,11 +17,11 @@ namespace LineComparisionProblem
             this.Y_Two = Y_Two;
 
         }
-        public void LengthOfLine()
+        public double LengthOfLine()
         {
-            double LengthOfXY = Math.Sqrt(Math.Pow((X_Two - X_One), 2) + Math.Pow((Y_Two - Y_One), 2));
-            Console.WriteLine("Length of Value 1 is:: " + LengthOfXY);
-           
+            double lengthOfXY = Math.Sqrt(Math.Pow((X_Two - X_One), 2) + Math.Pow((Y_Two - Y_One), 2));
+            Console.WriteLine("Length of Value 1 is:: " + lengthOfXY);
+            return lengthOfXY;
 
         }
     }
